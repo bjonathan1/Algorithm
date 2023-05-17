@@ -1,4 +1,3 @@
-import sys
 
 '''
 자료
@@ -36,7 +35,8 @@ data = list(map(int, input().split()))
 #input : 3 5 7
 n, m, k = map(int, input().split()) # 각 변수에 넣음
 
-#문자열 입력받기
+#문자열 빠르게 입력받기
+import sys
 data = sys.stdin.readline().rstrip()
 
 # 변수 문자열 출력
