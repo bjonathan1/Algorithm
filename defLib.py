@@ -11,6 +11,7 @@ def heapsort(iterable):
     #heap push
     for value in iterable:
         heapq.heappush(h, -value)
+        print(h)
     #heap pop
     for _ in range(len(h)):
         result.append(-heapq.heappop(h))
